@@ -31,5 +31,3 @@ formularios.forEach(itemLista => {
 // Agrega al node root, el elemento div_formulario
 // Con este se agrega los div, sino no aparecerá
 root.appendChild(div_formularios);
-
-// los algoritmos permiten crear elementos sin necesidad de crear más lineas de codigo
