@@ -1,0 +1,109 @@
+.box-login{
+    width: 100%;
+    max-width: 60rem;
+    height: 35rem;
+    margin: auto;
+    margin-top: 4%;
+    border: 1px solid black;
+
+    display: grid;
+    grid-template-columns: 30rem auto;
+}
+
+.box-login .formulario{
+    height: 100%;
+    padding: 2rem 6rem;
+
+    display: grid;
+    grid-template-columns: repeat(8,auto);
+    grid-template-rows: repeat(3,1fr) auto repeat(4, 1fr);
+    column-gap: 0.5rem;
+    row-gap: 0.8rem;
+}
+
+.box-login .logo{
+    grid-column: 1/9;
+}
+
+.box-login h2{
+    grid-column: 1/9;
+}
+
+.box-login .btn-facebook{
+    grid-column: 1/4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.box-login .btn-x{
+    grid-column: 5/8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.box-login span{
+    grid-column: 1/9;
+}
+
+/* DISEÑO */
+.box-login .logo{
+    font-size: 1.2rem;
+    font-weight: 600;
+    /* background-color: red; */
+    padding: 1rem 0rem;
+}
+
+.box-login h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: rgb(131, 127, 127);
+}
+
+.btn-facebook{
+    width: 9.8rem;
+    height: 2.5rem;
+    border-radius: 3px;
+    background-color: rgb(40, 106, 181);
+    gap: 0.5rem;
+}
+
+.letFace{
+    font-size: 0.8rem;
+    color: aliceblue;
+}
+
+.imgFace{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 3rem;
+}
+
+.btn-x{
+    width: 9.5rem;
+    height: 2.5rem;
+    font-size: 0.8rem;
+    border-radius: 3px;
+    background-color: #185134;
+    color: aliceblue;
+    gap: 0.5rem;
+}
+
+.letTwit{
+    font-size: 0.8rem;
+    color: aliceblue;
+}
+
+.imgX{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 3rem;
+}
+
+.box-login span{
+    text-align: center;
+    color: rgb(131, 127, 127);
+}
