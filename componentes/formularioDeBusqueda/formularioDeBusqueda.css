@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.continente_ariel {
+    background: linear-gradient(70deg, #ae00ffb7, #0056b3);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    
+}
+
+.ariel_1 h2 {
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+.ariel_1{
+    margin-bottom: 15px;
+}
+
+.ariel_1 label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ccc;
+}
+
+.ariel_1 input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.ariel_1 button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.ariel_1 :hover {
+    background-color: #0056b3;
+}
